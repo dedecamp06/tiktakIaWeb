@@ -72,6 +72,9 @@ export function Entrar() {
         <p className="entrar-contato">
           Quer um convite? Fale com <a href="mailto:suporte@tikitakia.com.br">suporte@tikitakia.com.br</a>
         </p>
+        <p className="entrar-legal">
+          <a href="/termos">Termos de Uso</a> · <a href="/privacidade">Política de Privacidade</a>
+        </p>
         <a href="/" className="link-voltar">← Voltar ao início</a>
       </div>
     </main>

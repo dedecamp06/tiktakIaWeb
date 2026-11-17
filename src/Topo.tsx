@@ -15,10 +15,10 @@ export function Topo() {
       <div className="container topo-linha">
         <Logo />
         <nav className="menu" aria-label="Seções">
-          <a href="#como-funciona">Como funciona</a>
-          <a href="#recursos">Recursos</a>
-          <a href="#treinos">Treinos</a>
-          <a href="#duvidas">Dúvidas</a>
+          <a href="/#como-funciona">Como funciona</a>
+          <a href="/#recursos">Recursos</a>
+          <a href="/#treinos">Treinos</a>
+          <a href="/#duvidas">Dúvidas</a>
         </nav>
         <a href="/entrar" className="botao botao-pequeno">Entrar</a>
       </div>

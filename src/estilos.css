@@ -249,3 +249,16 @@ a { color: inherit; }
   .treinos, .treinos-topo, .recursos { grid-template-columns: 1fr; }
   .treinos-topo { gap: 1rem; }
 }
+
+.documento { padding: clamp(3rem, 7vw, 5rem) 0 clamp(4rem, 8vw, 6rem); }
+.documento h1 { font-size: clamp(2.2rem, 5vw, 3.2rem); margin-bottom: 1.5rem; }
+.documento-resumo { background: var(--superficie); border: 1px solid var(--borda); border-left: 4px solid var(--marca); border-radius: 14px; padding: 1.2rem 1.4rem; margin-bottom: 2.5rem; font-weight: 500; }
+.documento-corpo h2 { font-size: 1.45rem; margin: 2.5rem 0 0.8rem; }
+.documento-corpo h3 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+.documento-corpo p, .documento-corpo li { color: var(--texto-suave); }
+.documento-corpo p { margin: 0 0 0.9rem; }
+.documento-corpo ul { margin: 0 0 1rem; padding-left: 1.3rem; display: grid; gap: 0.45rem; }
+.documento-corpo strong { color: var(--texto); }
+.documento-corpo a, .rodape a[href^="/"] { color: var(--marca); }
+.entrar-legal { font-size: 0.85rem; }
+.entrar-legal a { color: var(--texto-suave); }

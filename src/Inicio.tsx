@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Prancheta } from "./Prancheta";
-import { Logo, Topo } from "./Topo";
+import { Rodape } from "./Rodape";
+import { Topo } from "./Topo";
 
 const PASSOS = [
   { n: "01", titulo: "Abra o TikitakIA", texto: "Ele roda no seu Windows ao lado do jogo de futebol. Não instala nada dentro do jogo." },
@@ -221,17 +222,7 @@ export function Inicio() {
           </div>
         </section>
       </main>
-      <footer className="rodape">
-        <div className="container rodape-linha">
-          <Logo />
-          <p>
-            Dúvidas ou convite para o beta: <a href="mailto:suporte@tikitakia.com.br">suporte@tikitakia.com.br</a>
-            <br />
-            © 2026 TikitakIA. Foto:{" "}
-            <a href="https://unsplash.com/photos/soccer-match-in-a-packed-stadium-at-night-65yjpk2HSlA">Eduard Delputte / Unsplash</a>.
-          </p>
-        </div>
-      </footer>
+      <Rodape />
     </>
   );
 }

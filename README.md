@@ -21,8 +21,12 @@ Não precisa de variáveis de ambiente.
 |---|---|---|
 | `/` | `src/Inicio.tsx` | Abertura com foto e áudio de exemplo, como funciona, campo tático, recursos, treinos e mentorias, dúvidas e rodapé |
 | `/entrar` | `src/Entrar.tsx` | Login do Vestiário. Por enquanto toda tentativa mostra "Apenas convidados têm acesso ao Vestiário" e nada é enviado |
+| `/termos` | `src/Termos.tsx` | Termos de Uso, aceitos no cadastro |
+| `/privacidade` | `src/Privacidade.tsx` | Política de Privacidade (LGPD) |
 
-A rota é escolhida em `src/App.tsx` pelo caminho da URL, sem biblioteca de rotas. O `vercel.json` manda toda URL para o `index.html`.
+Os dados da empresa (razão social, CNPJ, e-mail) e as versões dos documentos ficam em `src/empresa.ts`. Ao mudar o texto dos Termos ou da Política, atualize `DOCUMENTOS`: o cadastro deve guardar qual versão a pessoa aceitou.
+
+A rota é escolhida em `src/App.tsx` (lista `PAGINAS`) pelo caminho da URL, sem biblioteca de rotas. O `vercel.json` manda toda URL para o `index.html`.
 
 ## Estrutura
 
